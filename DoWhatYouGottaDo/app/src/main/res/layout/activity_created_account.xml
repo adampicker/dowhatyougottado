@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatedAccountActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/listKeyTextView"
+        android:layout_width="174dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/createListBtn"
+        app:layout_constraintEnd_toStartOf="@+id/keycontainer"
+        app:layout_constraintStart_toStartOf="@+id/keycontainer"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="53dp"
+        android:text="@string/hello"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="180dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:gravity="center_horizontal"
+        android:text="@string/youraccountKeylist"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/listKeyTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloText" />
+
+    <Button
+        android:id="@+id/createListBtn"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/createownlist"
+        app:layout_constraintBottom_toTopOf="@+id/pinToListBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listKeyTextView" />
+
+    <Button
+        android:id="@+id/pinToListBtn"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/pintoyourbud"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createListBtn" />
+
+    <FrameLayout
+        android:id="@+id/keycontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="@+id/listKeyTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

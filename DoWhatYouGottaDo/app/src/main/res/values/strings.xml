@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DoWhatYouGottaDo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="hello">Hello</string>
+    <string name="createaccount">Create Account</string>
+    <string name="useexistingaccount">Use existing account</string>
+    <string name="name">Name</string>
+    <string name="create">Create</string>
+
+    <string name="createownlist">Create own list</string>
+    <string name="pintoyourbud">Pin to your bud list</string>
+    <string name="typekey">Type your friends lisy key</string>
+    <string name="OK">OK</string>
+    <string name="youraccountKeylist">your account key list is:</string>
+    <string name="onlyme">Private</string>
+    <string name="shared">Shared</string>
+    <string name="tracking">Tracking</string>
+    <string name="yourkeylistis">Your key list is:</string>
+    <string name="todo">Do:</string>
+    <string name="till">till:</string>
+    <string name="onlymee">only me</string>
+</resources>

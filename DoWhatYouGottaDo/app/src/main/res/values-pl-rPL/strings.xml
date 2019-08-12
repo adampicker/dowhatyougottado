@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Witaj</string>
+    <string name="createaccount">Stworz konto</string>
+    <string name="useexistingaccount">Użyj istniejącego konta</string>
+    <string name="name">Nazwa</string>
+    <string name="create">Stwórz</string>
+
+    <string name="createownlist">Stwórz własną listę</string>
+    <string name="pintoyourbud">Podepnij się do lisy</string>
+    <string name="typekey">Wpisz klucz swojego przyjaciela</string>
+    <string name="OK">OK</string>
+    <string name="youraccountKeylist">Numer twojego konta to:</string>
+    <string name="onlyme">Tylko ja</string>
+    <string name="shared">Współdzielone</string>
+    <string name="tracking">Śledź</string>
+    <string name="yourkeylistis">Numer twojego konta to:</string>
+    <string name="todo">Do zrobienia:</string>
+    <string name="till">do:</string>
+    <string name="onlymee">tylko ja</string>
+
+</resources>
